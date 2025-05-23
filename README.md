@@ -228,7 +228,7 @@ Non-functional requirements describe the **quality attributes** of the system. T
 
 The diagram below represents the key actors and use cases for a **Booking Management System**:
 
-![alx-booking-uc](https://github.com/user-attachments/assets/28574dbb-a033-4f7e-a65e-da6f7254c575)
+![alx-booking-uc.png](https://github.com/user-attachments/assets/28574dbb-a033-4f7e-a65e-da6f7254c575)
 
 
 ### 👤 Actors
@@ -248,5 +248,46 @@ The diagram below represents the key actors and use cases for a **Booking Manage
 - Manage Users
 
 ---
+
+## ✅ Acceptance Criteria
+
+### 📌 What is Acceptance Criteria?
+
+**Acceptance Criteria** are a set of predefined conditions that a software feature must meet to be considered complete and acceptable by stakeholders. These criteria define **the boundaries of a user story or requirement** and serve as the **basis for testing and validation**.
+
+They are typically written in **simple, clear language** and are used by:
+- Developers (to understand what to implement)
+- Testers (to verify correctness)
+- Product owners and stakeholders (to approve delivery)
+
+---
+
+### 🎯 Why is Acceptance Criteria Important in Requirement Analysis?
+
+- Ensures **shared understanding** of what "done" means between all parties.
+- Reduces the risk of **miscommunication** or missed expectations.
+- Supports the creation of **test cases** and automation scripts.
+- Encourages **precise, measurable, and testable** requirements.
+- Enhances **agile development** by setting clear deliverable goals per sprint/story.
+
+---
+
+### 🧪 Example: Acceptance Criteria for a "Checkout" Feature
+
+**Feature:** Checkout (Booking Management System)
+
+**User Story:** As a user, I want to checkout and confirm my booking so that I can reserve my spot and receive confirmation.
+
+**Acceptance Criteria:**
+
+1. ✅ User must be logged in to access the checkout page.
+2. ✅ The checkout page displays a summary of the selected booking (date, time, service, price).
+3. ✅ User can choose a payment method (e.g., credit card, PayPal).
+4. ✅ System must validate that required fields (e.g., billing details) are completed.
+5. ✅ Payment must be securely processed through an integrated gateway.
+6. ✅ Upon successful payment, a confirmation message and receipt are displayed.
+7. ✅ A confirmation email and/or SMS is sent to the user immediately.
+8. ✅ The booking is marked as “Confirmed” in the user’s booking history.
+
 
 
