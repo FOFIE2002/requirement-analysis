@@ -1,4 +1,4 @@
-# Requirement Analysis in Software Development
+![alx-booking-uc](https://github.com/user-attachments/assets/bb1e370b-fd66-43b8-9abb-1728319fe7d0)# Requirement Analysis in Software Development
 
 The Requirement Analysis Project focuses on crafting a comprehensive foundation for software development by documenting, analyzing, and structuring requirements. Through a series of well-defined tasks, learners will create a detailed blueprint of the requirement analysis phase for a booking management system. This project simulates a real-world development scenario, emphasizing clarity, precision, and structure in defining requirements to set the stage for successful project execution.
 
@@ -209,6 +209,43 @@ Non-functional requirements describe the **quality attributes** of the system. T
 - The UI must be **responsive and accessible** on mobile, tablet, and desktop.
 
 > These requirements focus on **system performance, security, scalability, and usability**.
+
+---
+
+## 🧩 Use Case Diagrams
+
+**Use Case Diagrams** are a type of Unified Modeling Language (UML) diagram used to visualize the **interactions between users (actors)** and a system. They provide a **high-level view** of what the system does and who uses it, without diving into technical implementation.
+
+### 🔍 Benefits of Use Case Diagrams
+- Clarify **system functionality** from the user's perspective.
+- Help identify all types of users and their **interactions** with the system.
+- Serve as a communication bridge between **technical** and **non-technical stakeholders**.
+- Aid in **requirement validation** and functional scope definition.
+
+---
+
+### 🗂️ Use Case Diagram: Booking Management System
+
+The diagram below represents the key actors and use cases for a **Booking Management System**:
+
+![alx-booking-uc](https://github.com/user-attachments/assets/28574dbb-a033-4f7e-a65e-da6f7254c575)
+
+
+### 👤 Actors
+- **User (Customer)** – makes bookings, views booking history, cancels bookings.
+- **Admin** – manages bookings, views reports, handles user management.
+- **Receptionist/Staff** – checks in users, modifies existing bookings.
+
+### 📌 Use Cases
+- Register/Login
+- Search Availability
+- Make Booking
+- Cancel Booking
+- View Booking History
+- Check-In User
+- Modify Booking
+- View Reports
+- Manage Users
 
 ---
 
