@@ -172,4 +172,44 @@ Requirement Analysis is a structured process that involves multiple critical act
   - Prototyping
   - Feedback sessions with stakeholders
 
+---
+
+## 📂 Types of Requirements
+
+In software development, requirements are broadly categorized into two types: **Functional** and **Non-functional**. Both are essential for building a robust and user-friendly system.
+
+---
+
+### 🔧 Functional Requirements
+
+Functional requirements define the **core operations** and **features** that the system must support. These are directly tied to the user's needs and the business processes the software must fulfill.
+
+#### ✅ Examples for a Booking Management Project:
+- Users must be able to **create new bookings** for services (e.g., hotel rooms, event slots).
+- Admins should be able to **view, update, or cancel bookings**.
+- The system must allow users to **search availability by date, time, or service type**.
+- Users must receive **email or SMS confirmations** after booking.
+- Staff should be able to **check-in clients** from a dashboard interface.
+- Users can log in using a **username and password** and manage their booking history.
+
+> These requirements describe **what the system should do**.
+
+---
+
+### ⚙️ Non-functional Requirements
+
+Non-functional requirements describe the **quality attributes** of the system. They define **how** the system should behave rather than what functions it performs.
+
+#### ✅ Examples for a Booking Management Project:
+- The system should be able to handle **up to 500 concurrent users** without performance degradation.
+- **Response time** for booking confirmation must be **less than 2 seconds**.
+- The application must comply with **GDPR** to ensure user data privacy.
+- The booking platform must be **available 99.9% of the time** (high availability).
+- All user data should be **encrypted** both in transit and at rest.
+- The UI must be **responsive and accessible** on mobile, tablet, and desktop.
+
+> These requirements focus on **system performance, security, scalability, and usability**.
+
+---
+
 
