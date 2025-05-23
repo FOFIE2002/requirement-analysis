@@ -100,7 +100,7 @@ Requirement analysis plays a **critical role** in the success of any software pr
 
 ---
 
-## ❓ Why is Requirement Analysis Important?
+## Why is Requirement Analysis Important?
 
 Requirement Analysis is not just the first step in SDLC—it's a **critical success factor** for the entire project lifecycle. Skipping or underestimating this phase can lead to miscommunication, scope creep, and failed deliveries. Here are three key reasons why it's essential:
 
